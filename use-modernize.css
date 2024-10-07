@@ -1,0 +1,171 @@
+/** 
+ * use-modernize.css - A versatile CSS reset and normalization stylesheet
+ *
+ * This stylesheet resets and normalizes styles across browsers for a consistent foundation. 
+ * It takes the best practices from various resets to create a comprehensive set of normalizing properties. 
+ * This helps ensure that elements behave predictably, making your designs look great everywhere. 
+ * Feel free to customize and build upon this base for your projects!
+ *
+ * Made with love by Manuel Caballero. Connect with me on LinkedIn: https://www.linkedin.com/in/by-manuel-caballero/
+
+/**
+
+/* Base Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box; /* Set box-sizing to border-box for all elements */
+}
+
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    font-size: 16px; /* Set base font size */
+    line-height: calc(2px + 2ex + 2px); /* Set line height */
+    -webkit-font-smoothing: antialiased; /* Improve font rendering */
+}
+
+/* Styles for images and multimedia elements */
+img, picture, video, canvas, svg {
+    font: inherit; /* Inherit font from body */
+    max-width: 100%; /* Ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Ensure text in paragraphs and headings wraps correctly */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word; /* Break long words */
+}
+
+/* Document sections */
+main {
+    display: block; /* Ensure the main element displays correctly */
+}
+
+/* Grouping content */
+hr {
+    box-sizing: content-box; /* Set box-sizing for horizontal rules */
+    height: 0; /* No visible height */
+    overflow: visible; /* Ensure content is visible */
+}
+
+/* Styles for links */
+a {
+    background-color: transparent; /* Remove gray background on active links */
+}
+
+/* Abbreviations */
+abbr[title] {
+    border-bottom: none; /* No underline */
+    text-decoration: underline; /* Underline to indicate abbreviation */
+}
+
+/* Font styles */
+b, strong {
+    font-weight: bolder; /* Make bold text bolder */
+}
+
+/* Text elements */
+code, kbd, samp {
+    font-family: monospace, monospace; /* Use monospace font */
+    font-size: 1em; /* Set font size to normal */
+}
+
+/* Small text */
+small {
+    font-size: 80%; /* Reduce font size */
+}
+
+/* Subscripts and superscripts */
+sub, sup {
+    font-size: 75%; /* Reduce size */
+    line-height: 0; /* Don't affect line height */
+    position: relative; /* Set positioning */
+    vertical-align: baseline; /* Align with baseline */
+}
+
+sub {
+    bottom: -0.25em; /* Adjust subscript positioning */
+}
+
+sup {
+    top: -0.5em; /* Adjust superscript positioning */
+}
+
+/* Styles for forms */
+button, input, optgroup, select, textarea {
+    font-family: inherit; /* Inherit font from body */
+    font-size: 100%; /* Set font size to normal */
+    line-height: 1.15; /* Set line height */
+    margin: 0; /* Remove margin */
+}
+
+/* Image styles */
+img {
+    border-style: none; /* Remove border from images */
+}
+
+/* Styles for details and summaries */
+details {
+    display: block; /* Ensure details are displayed */
+}
+
+summary {
+    display: list-item; /* Display summary as a list item */
+}
+
+/* Hidden elements */
+[hidden] {
+    display: none; /* Hide elements */
+}
+
+/* Progress elements */
+progress {
+    vertical-align: baseline; /* Align with baseline */
+}
+
+/* Textarea styles */
+textarea {
+    overflow: auto; /* Enable scrolling */
+}
+
+/* Vertical alignment for checkbox and radio types */
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* Set box-sizing correctly */
+    padding: 0; /* Remove padding */
+}
+
+/* Styles for lists */
+ul, ol {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styles */
+}
+
+/* Styles for tables */
+table {
+    border-collapse: collapse; /* Merge borders */
+    width: 100%; /* Make tables responsive */
+}
+
+th, td {
+    padding: 0.5em; /* Add some padding */
+    text-align: left; /* Align text */
+    border: 1px solid #ddd; /* Add border for visibility */
+}
+
+/* Styles for navigation */
+nav {
+    display: block; /* Ensure nav displays correctly */
+}
+
+/* Styles for blockquotes */
+blockquote {
+    margin: 1em 0; /* Add margin for blockquotes */
+    padding: 0.5em; /* Add padding */
+    border-left: 4px solid #ccc; /* Add a left border */
+    quotes: "“" "”" "‘" "’"; /* Set quotes for blockquotes */
+}
