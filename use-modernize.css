@@ -1,9 +1,9 @@
 /** 
  * use-modernize.css - A versatile CSS reset and normalization stylesheet
  *
- * This stylesheet resets and normalizes styles across browsers for a consistent foundation. 
- * It takes the best practices from various resets to create a comprehensive set of normalizing properties. 
- * This helps ensure that elements behave predictably, making your designs look great everywhere. 
+ * This stylesheet resets and normalizes styles across browsers for a consistent foundation.
+ * It takes the best practices from various resets to create a comprehensive set of normalizing properties.
+ * This helps ensure that elements behave predictably, making your designs look great everywhere.
  * Feel free to customize and build upon this base for your projects!
  *
  * Made with love by Manuel Caballero. Connect with me on LinkedIn: https://www.linkedin.com/in/by-manuel-caballero/
@@ -23,7 +23,7 @@
 
 body {
     font-size: 16px; /* Set base font size */
-    line-height: calc(2px + 2ex + 2px); /* Set line height */
+    line-height: 1.5; /* Set line height */
     -webkit-font-smoothing: antialiased; /* Improve font rendering */
 }
 
@@ -69,7 +69,7 @@ b, strong {
 
 /* Text elements */
 code, kbd, samp {
-    font-family: monospace, monospace; /* Use monospace font */
+    font-family: monospace; /* Use monospace font */
     font-size: 1em; /* Set font size to normal */
 }
 

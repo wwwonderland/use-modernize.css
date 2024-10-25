@@ -1,0 +1,17 @@
+{
+  "name": "use-modernize",
+  "version": "1.0.0",
+  "description": "use-modernize.css - A versatile CSS reset and normalization stylesheet",
+  "main": "use-modernize.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["css", "normalize", "reset"],
+  "author": "Manuel Caballero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wwwonderland/use-modernize.css"
+  }
+}
+
